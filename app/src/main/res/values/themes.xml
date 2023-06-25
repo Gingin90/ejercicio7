@@ -3,6 +3,10 @@
     <style name="Base.Theme.Ejercicio7" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Customize your purple dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_ purpledark_primary</item> -->
     </style>
 
     <style name="Theme.Ejercicio7" parent="Base.Theme.Ejercicio7" />
