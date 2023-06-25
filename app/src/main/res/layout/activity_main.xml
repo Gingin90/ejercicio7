@@ -10,13 +10,12 @@
     <TextView
         android:id="@+id/textView"
         style="@style/styletextview"
-        android:layout_width="157dp"
-        android:layout_height="36dp"
-        android:layout_marginBottom="164dp"
-        android:text="Elija una accion"
+        android:layout_width="177dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="36dp"
+        android:text="Bienvenidos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -24,12 +23,11 @@
         android:layout_width="161dp"
         android:layout_height="114dp"
         android:layout_marginTop="24dp"
-        android:src="@tools:sample/avatars"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mariposa" />
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <EditText
         android:id="@+id/editTextName"
