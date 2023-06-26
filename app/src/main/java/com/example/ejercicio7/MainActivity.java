@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-
+                Toast.makeText( MainActivity.this,"flu",Toast.LENGTH_SHORT).show();
             }
         });
 
