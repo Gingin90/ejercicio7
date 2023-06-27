@@ -56,9 +56,13 @@ public class MainActivity extends AppCompatActivity {
         flu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Snackbar.make(view, "Hello Snackbar", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
                 Toast.makeText( MainActivity.this,"flu",Toast.LENGTH_SHORT).show();
+
+                finishAffinity();
             }
         });
 
